@@ -44,7 +44,7 @@ After succesfully install those dependencies, open this theme with any IDM [[VS 
 ```
 npm install
 ```
-* Install gulp
+* Run gulp
 ```
 gulp
 ```
