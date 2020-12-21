@@ -10,16 +10,16 @@ Constra is a theme for professional builders, construction or even industrial pr
 | [![](screenshots/service.png)](https://demo.themefisher.com/constra/services.html) | [![](screenshots/project.png)](https://demo.themefisher.com/constra/projects.html) | [![](screenshots/news.png)](https://demo.themefisher.com/constra/news-right-sidebar.html) |
 | **Service** | **Project** | **News** |
 
-[View Live Preview](https://demo.themefisher.com/constra/index.html)
+👉🏻[View Live Preview](https://demo.themefisher.com/constra/index.html)
 
 
 <!-- download -->
 ## Download And installation
 Download this template from any following options:
 
+* Download from [Github](https://github.com/themefisher/Constra-Bootstrap-Construction-Template/archive/master.zip)
+* Clone the repository: `git clone https://github.com/themefisher/Constra-Bootstrap-Construction-Template.git`
 * Download from [Themefisher](https://themefisher.com/products/constra-construction-template/)
-* Clone the repository: `git clone https://github.com/themefisher/Constra-Html5-Construction-Template.git`
-* Download from [Github](https://github.com/themefisher/Constra-Html5-Construction-Template/archive/master.zip)
 
 
 <!-- installation -->
@@ -53,8 +53,8 @@ After that, it will open up a preview of the template in your default browser, w
 
 <!-- reporting issue -->
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/Constra-Html5-Construction-Template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Constra-Html5-Construction-Template/issues).
+We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/Constra-Bootstrap-Construction-Template/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Constra-Bootstrap-Construction-Template/issues).
 
 <!-- support -->
 ## Technical Support or Questions (Paid)
@@ -64,6 +64,6 @@ If you have questions or need help integrating the product please [contact us](m
 ## License
 Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.com)
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/Constra-Html5-Construction-Template/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/themefisher/Constra-Bootstrap-Construction-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
