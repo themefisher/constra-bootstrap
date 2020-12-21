@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
+
+/* Typography
+================================================== */
+
+body {
+  background: #fff;
+  color: #555;
+}
+
+body,
+p {
+  font-family: $font-primary;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: -.5px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -.2px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.alert .icon {
+  margin-right: 15px;
+}
