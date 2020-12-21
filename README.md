@@ -9,6 +9,7 @@ Constra is a theme for professional builders, construction or even industrial pr
 | **Homepage 1**  | **Homepage 2**  | **About**  |
 | [![](screenshots/service.png)](https://demo.themefisher.com/constra/services.html) | [![](screenshots/project.png)](https://demo.themefisher.com/constra/projects.html) | [![](screenshots/news.png)](https://demo.themefisher.com/constra/news-right-sidebar.html) |
 | **Service** | **Project** | **News** |
+
 [View Live Preview](https://demo.themefisher.com/constra/index.html)
 
 
