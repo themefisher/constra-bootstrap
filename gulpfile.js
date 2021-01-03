@@ -11,17 +11,17 @@ var rimraf       = require('rimraf');
 
 var path = {
   src: {
-    html    : 'app/*.html',
-    others  : 'app/*.+(php|ico|png)',
-    htminc  : 'app/partials/**/*.htm',
-    incdir  : 'app/partials/',
-    plugins : 'app/plugins/**/*.*',
-    js      : 'app/js/*.js',
-    scss    : 'app/scss/**/*.scss',
-    images  : 'app/images/**/*.+(png|jpg|gif|svg)'
+    html    : 'source/*.html',
+    others  : 'source/*.+(php|ico|png)',
+    htminc  : 'source/partials/**/*.htm',
+    incdir  : 'source/partials/',
+    plugins : 'source/plugins/**/*.*',
+    js      : 'source/js/*.js',
+    scss    : 'source/scss/**/*.scss',
+    images  : 'source/images/**/*.+(png|jpg|gif|svg)'
   },
   build: {
-    dirDev : 'builds/'
+    dirDev : 'theme/'
   }
 };
 
@@ -77,7 +77,7 @@ return gulp.src(path.src.plugins)
   }));
 });
 
-// Other files like favicon, php, apple-icon on root directory
+// Other files like favicon, php, sourcele-icon on root directory
 gulp.task('others:build', function () {
 return gulp.src(path.src.others)
   .pipe(gulp.dest(path.build.dirDev))
@@ -85,7 +85,7 @@ return gulp.src(path.src.others)
 
 // Clean Build Folder
 gulp.task('clean', function (cb) {
-  rimraf('./builds', cb);
+  rimraf('./theme', cb);
 });
 
 // Watch Task
