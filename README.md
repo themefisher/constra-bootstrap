@@ -4,13 +4,33 @@ Constra is a theme for professional builders, construction or even industrial pr
 
 <!-- demo -->
 ## Example Site
-| [![](screenshots/homepage-1.png)](https://demo.themefisher.com/constra/index.html) | [![](screenshots/homepage-2.png)](https://demo.themefisher.com/constra/index-2.html) | [![](screenshots/about.png)](https://demo.themefisher.com/constra/about.html) |
+| [![](screenshots/homepage-1.png)](https://demo.themefisher.com/constra/) | [![](screenshots/homepage-2.png)](https://demo.themefisher.com/constra/index-2.html) | [![](screenshots/about.png)](https://demo.themefisher.com/constra/about.html) |
 |:---:|:---:|:---:|
 | **Homepage 1**  | **Homepage 2**  | **About**  |
 | [![](screenshots/service.png)](https://demo.themefisher.com/constra/services.html) | [![](screenshots/project.png)](https://demo.themefisher.com/constra/projects.html) | [![](screenshots/news.png)](https://demo.themefisher.com/constra/news-right-sidebar.html) |
 | **Service** | **Project** | **News** |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/constra/index.html)
+👉🏻[View Live Preview](https://demo.themefisher.com/constra/)
+
+<!-- resources -->
+## Pages
+* **Homepage 1**
+* **Homepage 2**
+* **About**
+* **Services**
+* **Service Details**
+* **Projects**
+* **Projects Details**
+* **Pricing**
+* **Team**
+* **Testimonials**
+* **News Left Sidebar**
+* **News Right Sidebar**
+* **News Details**
+* **FAQ**
+* **404**
+* **Typography**
+* **Contact**
 
 
 <!-- download -->
