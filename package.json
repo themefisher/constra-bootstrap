@@ -1,12 +1,12 @@
 {
   "name": "constra",
-  "version": "2.4.0",
+  "version": "2.1.0",
   "description": "constra free construction template",
   "author": "Themefisher",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "dev": "gulp",
-    "netlify": "gulp netlify"
+    "build": "gulp build"
   },
   "dependencies": {
     "browser-sync": "^2.27.10",

@@ -21,7 +21,7 @@ var path = {
     images: "source/images/**/*.+(png|jpg|gif|svg)",
   },
   build: {
-    dirNetlify: "netlify/",
+    dirBuild: "theme/",
     dirDev: "theme/",
   },
 };
@@ -143,7 +143,7 @@ gulp.task("watch:build", function () {
   gulp.watch(path.src.plugins, gulp.series("plugins:build"));
 });
 
-// Build Task
+// Dev Task
 gulp.task(
   "default",
   gulp.series(
@@ -164,68 +164,14 @@ gulp.task(
   )
 );
 
-/* =====================================================
-Netlify Builds
-===================================================== */
-// HTML
-gulp.task("html:netlify:build", function () {
-  return gulp
-    .src(path.src.html)
-    .pipe(
-      fileinclude({
-        basepath: path.src.incdir,
-      })
-    )
-    .pipe(gulp.dest(path.build.dirNetlify));
-});
-
-// SCSS
-gulp.task("scss:netlify:build", function () {
-  return gulp
-    .src(path.src.scss)
-    .pipe(sourcemaps.init())
-    .pipe(
-      sass({
-        outputStyle: "expanded",
-      }).on("error", sass.logError)
-    )
-    .pipe(autoprefixer())
-    .pipe(sourcemaps.write("/maps"))
-    .pipe(gulp.dest(path.build.dirNetlify + "css/"));
-});
-
-// Javascript
-gulp.task("js:netlify:build", function () {
-  return gulp.src(path.src.js).pipe(gulp.dest(path.build.dirNetlify + "js/"));
-});
-
-// Images
-gulp.task("images:netlify:build", function () {
-  return gulp
-    .src(path.src.images)
-    .pipe(gulp.dest(path.build.dirNetlify + "images/"));
-});
-
-// Plugins
-gulp.task("plugins:netlify:build", function () {
-  return gulp
-    .src(path.src.plugins)
-    .pipe(gulp.dest(path.build.dirNetlify + "plugins/"));
-});
-
-// Other files like favicon, php, apple-icon on root directory
-gulp.task("others:netlify:build", function () {
-  return gulp.src(path.src.others).pipe(gulp.dest(path.build.dirNetlify));
-});
-
 // Build Task
 gulp.task(
-  "netlify",
+  "build",
   gulp.series(
-    "html:netlify:build",
-    "js:netlify:build",
-    "scss:netlify:build",
-    "images:netlify:build",
-    "plugins:netlify:build"
+    "html:build",
+    "js:build",
+    "scss:build",
+    "images:build",
+    "plugins:build"
   )
 );
