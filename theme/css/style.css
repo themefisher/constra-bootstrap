@@ -718,7 +718,6 @@ ul.navbar-nav > li > a {
   ul.navbar-nav > li > a {
     padding: 1px 0 !important;
   }
-
   .navbar-nav {
     margin-bottom: 15px;
   }
@@ -934,7 +933,6 @@ ul.navbar-nav > li > a i {
     padding: 6px 10px;
     margin-top: 7px;
   }
-
   .header-two ul.navbar-nav > li > a i {
     color: #fff;
   }
@@ -1072,7 +1070,6 @@ ul.navbar-nav > li > a {
     top: 0;
     display: none;
   }
-
   ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover .dropdown-menu {
     display: block;
   }
