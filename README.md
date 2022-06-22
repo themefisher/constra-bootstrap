@@ -75,7 +75,7 @@ npm install
 npm run dev
 ```
 
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved. After finishing all the customization, you can use the theme folder as your main theme.
 
 👉🏻 [visit documentation](https://docs.themefisher.com/constra/)
 
