@@ -1,7 +1,7 @@
 /**
  * WEBSITE: https://themefisher.com
  * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
+ * FACEBOOK: https://facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/
  */
 
@@ -515,7 +515,7 @@ a[href^=tel] {
 }
 @media (max-width: 767px) {
   .btn-primary,
-.btn-dark {
+  .btn-dark {
     font-size: 13px;
   }
 }
@@ -937,7 +937,7 @@ ul.navbar-nav > li > a i {
     color: #fff;
   }
   .header-two ul.navbar-nav > li.active > a i,
-.header-two ul.navbar-nav > li > a.active i {
+  .header-two ul.navbar-nav > li > a.active i {
     color: #ffb600;
   }
 }
@@ -2835,7 +2835,7 @@ img.testimonial-thumb {
 
 /* Pricing featured */
 .ts-pricing-box.ts-pricing-featured .ts-pricing-header {
-  background: #ff9800;
+  background: rgb(255, 152.25, 0);
 }
 
 /* Contact Us
